@@ -1,2 +1,2 @@
 # valorant
-Creating a repository for analysing valorant patterns
+Creating a repository for analysing valorant players patterns
