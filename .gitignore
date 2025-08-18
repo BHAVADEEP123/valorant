@@ -1,0 +1,122 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Installer / pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# Scrapy / crawling
+.scrapy
+
+# Playwright Chromium artifacts (if used)
+playwright/.local-browsers/
+
+# Logs, DBs, env files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Type checkers / caches
+.mypy_cache/
+.cache/
+```// filepath: d:\[L0]ANALYTICS\valorant\.gitignore
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Installer / pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# Scrapy / crawling
+.scrapy
+
+# Playwright Chromium artifacts (if used)
+playwright/.local-browsers/
+
+# Logs, DBs, env files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Type checkers / caches
+.mypy_cache/
