@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class ValorantScapperPipeline:
+class RoasterScrapperPipeline:
     def process_item(self, item, spider):
         return item
