@@ -15,6 +15,7 @@ class RoasterSpider(scrapy.Spider):
             team_item = TeamItem()
             team_item["team_name"] = team.css("a.event-team-name::text").get().strip()
             team_item["team_link"] = team.css("a.event-team-name::attr(href)").get().strip()
+            team_item["team_id"] = team.css("a.event-team-name::attr(href)").get().strip().split("/")[-2]
             team_item["players"] = []
             for player in team.css("a.event-team-players-item"):
                 player_item = PlayerItem()
@@ -22,7 +23,9 @@ class RoasterSpider(scrapy.Spider):
                     [i.strip() for i in player.css("::text").getall() if i.strip()]
                 )
                 player_item["player_link"] = response.urljoin(player.attrib["href"])
+                player_item["player_id"] = player.attrib["href"].split("/")[-2]
                 team_item["players"].append(player_item)
 
             region_item["teams"].append(team_item)
+        print(region_item)
         yield region_item

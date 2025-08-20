@@ -120,3 +120,6 @@ Thumbs.db
 
 # Type checkers / caches
 .mypy_cache/
+
+# dont allow players data
+data/

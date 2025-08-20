@@ -9,11 +9,12 @@ import scrapy
 class PlayerItem(scrapy.Item):
     player_name = scrapy.Field()
     player_link = scrapy.Field()
-
+    player_id = scrapy.Field()
 
 class TeamItem(scrapy.Item):
     team_name = scrapy.Field()
     team_link = scrapy.Field()
+    team_id = scrapy.Field()
     players = scrapy.Field()  # list of PlayerItem
 
 
