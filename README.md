@@ -5,7 +5,7 @@ Creating a repository for analysing valorant players patterns
 ```commandline
 uv sync
 ```
-## Run Roaster spider
+## Run Roaster Spider
 From roaster_scrapper folder
 ```commandline
  uv run scrapy crawl roaster -O ../data/top_level_data/roster.json --set FEED_EXPORT_INDENT=4
